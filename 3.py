@@ -1,6 +1,6 @@
-a = int(input())
-a = a-1 if a%2 ==0 else a
-for i in range(1, a+1):
-    print((i*2)-1, end='')
-    if i != a:
-        print(', ',end='')
+'''
+Both being prime numbers, 7 and 5, number that is divisible by both is 35.
+'''
+
+for i in range(1505,2701,35):
+    print(i, end=' ')

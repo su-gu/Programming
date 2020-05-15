@@ -1,5 +1,9 @@
-number1 = float(input("Enter the first number\n"))
-number2 = float(input("Enter the second Number\n"))
-operator = input("Enter the operator\n")
-print((number2+number1) if operator == '+' else number1-number2 if operator == '-' else number1*number2 if operator == '*' else number1/number2 if operator == '/' else 'Enter a correct operator')
+a= int(input())
+element = 1
+while (a != 0):
+    if element % 5 != 0:
+        print(element, end=' ')
+        a-=1
+    element+=2
 
+    
